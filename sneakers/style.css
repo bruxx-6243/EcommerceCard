@@ -1,0 +1,220 @@
+*, ::before, ::after
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: #444;
+
+}
+
+.cartes
+{
+	background: #f1f1f1;
+	width: 300px;
+	height: 550px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	margin: 20px 10px;
+	box-shadow: 0px 10px 25px rgba(0,0,0,0.8);
+	overflow: hidden;
+}
+
+.cartes:hover
+{
+	cursor: pointer;
+	border: 2px solid DodgerBlue;
+}
+
+.img1
+{
+	background: url('images/image4.jpg');
+}
+
+.img2
+{
+	background: url('images/image5.jpg');
+}
+
+.img3
+{
+	background: url('images/image1.jpg');
+}
+
+.img4
+{
+	background: url('images/image2.jpg');
+}
+
+
+.partImg
+{
+	height: 60%;
+	width: 100%;
+	background-position: 50% 50%;
+	background-size: cover;
+	position: relative;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.filtreBlue
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	transition: background 0.4s ease;
+}
+
+.filtreBlue:hover
+{
+	cursor: pointer;
+	background: rgba(118,176,194,0.4);
+}
+
+.btnReveal
+{
+	width: 100px;
+	height: 40px;
+	background: #f1f1f1;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(118,176,194);
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: opacity 0.2s ease;
+}
+
+.filtreBlue:hover .btnReveal
+{
+	opacity: 1;
+}
+
+.titrePrix
+{
+	display: flex;
+	widows: 100%;
+	padding: 10px;
+}
+
+.titreCarte
+{
+	display: flex;
+	align-items: center;
+	margin: 0;
+	width: 80%;
+	font-size: 25px;
+	position: relative;
+}
+
+.titreCarte::after
+{
+	content: "Originals sneakers";
+	font-weight: 100;
+	font-size: 14px;
+	position: absolute;
+	top: 45px;
+}
+
+.prix
+{
+	width: 20%;
+	font-size: 18px;
+}
+
+.tailles
+{
+	padding: 3px 10px;
+	width: 100%;
+}
+
+
+.taillesTxt
+{
+	margin: 0;
+	font-weight: bold;
+	position: relative;
+	font-size: 18px;
+	position: relative;
+}
+
+.taillesTxt::after
+{
+	content: "9 US 9,5 US 10 US";
+	font-weight: 100;
+	font-size: 14px;
+	position: absolute;
+	top: 22px;
+	left: 0;
+}
+
+.colors
+{
+	padding: 20px 10px;
+	width: 100%;
+}
+
+.sousTitreC
+{
+	padding-bottom: 5px;
+	font-size: 20px;
+	margin: 0;
+}
+
+.contRonds
+{
+	display: flex;
+	width: 100%;
+}
+
+.ronds
+{
+	height: 23px;
+	width: 23px;
+	border-radius: 50%;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.ronds:nth-child(1)
+{
+	background: #222;
+}
+
+.ronds:nth-child(2)
+{
+	background: LightGray;
+}
+
+.ronds:nth-child(3)
+{
+	background: #3BB222;
+}
+
+.ronds:nth-child(4)
+{
+	background: #EFE140;
+}
+
+.ronds:nth-child(5)
+{
+	background: #E70909;
+}
