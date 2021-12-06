@@ -1,3 +1,6 @@
 # e-commerce-card
 Premier projet sur les cartes e-commerces
-![509a687f3020420f9fa2976dbf3be519](https://user-images.githubusercontent.com/81830567/144856140-f7c4de25-6a82-4c84-a7c8-78867ad14f7f.jpg)
+#Carte Lamoda et Sneakers
+
+![2021-12-06_16-44-31](https://user-images.githubusercontent.com/81830567/144856804-9ad11959-8c62-498e-b323-6acf97086032.png)
+![2021-12-06_16-48-18](https://user-images.githubusercontent.com/81830567/144857318-e0a8f0dd-e909-4e22-90ef-f996296685a9.png)
