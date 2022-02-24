@@ -1,4 +1,4 @@
-# e-commerce-card
+# Ecommerce card
 Premier projet sur les cartes e-commerces
 #Carte Lamoda et Sneakers
 
